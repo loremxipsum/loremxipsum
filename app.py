@@ -1,31 +1,44 @@
+
+
+
+
 import streamlit as st
+import base64
+
+st.cache(clear_cache=True)
+
+
+
+
+
+
+
+# Load the font file and encode it in base64
+with open("ocr-aregular.ttf", "rb") as f:
+    font_data = f.read()
+    font_base64 = base64.b64encode(font_data).decode()
+
+# Use the base64 font within the app's CSS
+font_css = f"""
+<style>
+@font-face {{
+    font-family: 'OCRARegular';
+    src: url('data:font/ttf;base64,{font_base64}') format('truetype');
+}}
+.ocr-font {{
+    font-family: 'OCRARegular';
+}}
+</style>
+"""
+
+st.markdown(font_css, unsafe_allow_html=True)
 
 st.title('PILOT')
 
-# Display image
-image_path = "chimp.png" 
-st.image(image_path, caption="I FIND YOUR LACK OF FAITH DISTURBING", use_column_width=True)
+# Your content using the OCR font
+content = """
+HELLO TEAM
 
-# Inject custom font through CSS using the raw GitHub URL
-st.markdown(
-    """
-    <style>
-        @font-face {
-            font-family: 'OCRARegular';
-            src: url('https://raw.githubusercontent.com/loremxipsum/loremxipsum/main/ocr-aregular.ttf') format('truetype');
-        }
-        .ocr-font {
-            font-family: 'OCRARegular';
-        }
-    </style>
-    """, 
-    unsafe_allow_html=True
-)
-
-# Display text with the OCR font
-st.markdown(
-    """
-    <div class="ocr-font">  
     HELLO TEAM
 
     We are currently a simple group of Technologists. We do the mapping – we do the supply chain. We use cutting edge AI in pursuit of our R&D that aims to push the frontiers of how we perceive intelligent-systems. We are simply devising supply chain and logistics solutions at this point in time. But, we are about to use the same framework that goes into building these solutions to change intelligence as we know it – forever.
@@ -60,10 +73,7 @@ st.markdown(
     ---------------
     Check back on day 33 for updated contributions to the chain.
     This is a private chain that will be made public to reasonable contributors – this is to reduce spamming in our project.
-    </div>
-    """, 
-    unsafe_allow_html=True
-)
+    
+"""
+st.markdown(f'<div class="ocr-font">{content}</div>', unsafe_allow_html=True)
 
-
-st.cache(clear_cache=True)
