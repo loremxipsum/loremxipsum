@@ -15,7 +15,7 @@ Our vectorized smart contract calculates your contributions and logs them into t
 
 Further content can be found via accessing this content on a tor browser:
 
-loremipsumscl.onion
+loremipsumscl.onion (**check back on 13_N0V**)
 
 Contact admin for tor access guide – tor access guide will only be provided to you based on your answer to how you will contribute to the current deliverables. See you on day 33.
 
@@ -29,6 +29,9 @@ For the first deliverables, we would require a clone of craigslist. The world is
 \\
 
 == Your references for now: www.craigslist.org
+
+
+---------------
 Check back on day 33 for updated contributions on the chain.
 This is a private chain that is made public on reasonable contribution – this for reduced spamming on our project.
 ''')
