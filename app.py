@@ -30,6 +30,20 @@ st.write('''
     
     Contact me at: admin@XXXX for issues with your transfers. We are currently in the process of building a UI that allows you to view tokens you have earned. Until then, check contribution chart and contact admin.
 
+''')
+
+
+
+
+
+image_path = "chimp.png" 
+st.image(image_path, caption="I FIND YOUR LACK OF FAITH DISTURBING.", use_column_width=True)
+
+
+
+
+
+st.write('''
     **Top 3 contributors receive $250 + $275 + $330 in goodies/redeemable tokens/ethereum every month.**
 
     Further content on this can be found via accessing our project scrum on:
@@ -56,7 +70,3 @@ st.write('''
     This is a private chain that will be made public to reasonable contributors – this is to reduce spamming in our project.
      
 ''')
-
-
-image_path = "chimp.png" 
-st.image(image_path, caption="I FIND YOUR LACK OF FAITH DISTURBING.", use_column_width=100)
