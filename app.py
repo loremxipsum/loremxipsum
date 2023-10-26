@@ -1,19 +1,21 @@
 import streamlit as st
 
-
-# Inject custom CSS to set "Consolas" as the font
+# Inject custom CSS to include and set "Consolas" as the font from your TTF file
 font_css = """
 <style>
+    @font-face {
+        font-family: 'ConsolasCustom';
+        src: url('Consolas.ttf') format('truetype');
+    }
     body {
-        font-family: Consolas, monospace !important;
+        font-family: 'ConsolasCustom', monospace !important;
     }
 </style>
 """
 st.markdown(font_css, unsafe_allow_html=True)
 
-st.title('PILOT')
 
-import streamlit as st
+st.title('PILOT')
 
 image_path = "chimp.png" 
 st.image(image_path, caption="I FIND YOUR LACK OF FAITH DISTURBING.", use_column_width=True)
