@@ -5,7 +5,7 @@ font_css = """
 <style>
 @font-face {
     font-family: 'OCRARegular';
-    src: url('https://raw.githubusercontent.com/loremxipsum/loremxipsum/main/ocr-aregular.ttf') format('truetype');
+    src: url('ocr-aregular.ttf') format('truetype');
 }
 .ocr-font {
     font-family: 'OCRARegular';
