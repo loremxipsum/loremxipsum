@@ -10,7 +10,7 @@ def main():
         <style>
             @font-face {
                 font-family: 'OCRFont';
-                src: url('https://yourcdn.com/fonts/OCRFont.ttf') format('truetype');
+                src: url('ocr-aregular.ttf') format('truetype');
             }
             body {
                 font-family: 'OCRFont', sans-serif;
