@@ -5,7 +5,7 @@ font_css = """
 <style>
     @font-face {
         font-family: 'ConsolasCustom';
-        src: url('Consolas.ttf') format('truetype');
+        src: url('Consolas-2.ttf') format('truetype');
     }
     body {
         font-family: 'ConsolasCustom', monospace !important;
