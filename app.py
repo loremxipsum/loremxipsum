@@ -1,23 +1,20 @@
 import streamlit as st
 
-# Set Streamlit container to wide mode for more space
-st.set_page_config(layout="wide")
-
-# Use the font from the local path
+# Use the font from the GitHub raw content URL
 font_css = """
 <style>
 @font-face {
     font-family: 'OCRARegular';
-    src: url('ocr-aregular.ttf') format('truetype');
+    src: url('https://raw.githubusercontent.com/loremxipsum/loremxipsum/main/ocr-aregular.ttf') format('truetype');
 }
 .ocr-font {
     font-family: 'OCRARegular';
-    word-wrap: break-word;  /* ensures long strings/words break onto the next line */
 }
 </style>
 """
 
 st.markdown(font_css, unsafe_allow_html=True)
+
 st.title('PILOT')
 
 # Display image
@@ -62,6 +59,7 @@ content = """
     This is a private chain that will be made public to reasonable contributors – this is to reduce spamming in our project.
      will be made public to reasonable contributors – this is to reduce spamming in our project.
 """
+
 st.markdown(f'<div class="ocr-font">{content}</div>', unsafe_allow_html=True)
 
 
