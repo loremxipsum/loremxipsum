@@ -15,5 +15,4 @@ font_css = """
 st.markdown(font_css, unsafe_allow_html=True)
 
 # Use the font by wrapping your text in a div with the class 'ocr-font'
-st.markdown('<div class="ocr-font">ThiHJHBHJKJN
-NKJNN\OCR A font</div>', unsafe_allow_html=True)
+st.markdown('<div class="ocr-font">JKKKK\OCR A font</div>', unsafe_allow_html=True)
