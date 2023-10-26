@@ -4,12 +4,8 @@ st.title('PILOT')
 
 import streamlit as st
 
-# Display text
-st.write("This is regular text and *this is italic text*.")
-
-# Display image
 image_path = "chimp.png" 
-st.image(image_path, caption="I FIND YOUR LACK OF FAITH DISTURBING.", use_column_width=300)
+st.image(image_path, caption="I FIND YOUR LACK OF FAITH DISTURBING.", use_column_width=True)
 
 
 st.write('''
