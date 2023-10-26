@@ -32,7 +32,9 @@ Contact admin for tor access guide – tor access guide will only be provided to
 
 ///
 
-For the first deliverables, we would require a clone of craigslist. The world is a massive mosh-pit of night creatures who’re looking to push the frontiers of what is currently being perceived as intelligence – need I remind you again, the foundation to what we are currently architecture'ng for supply-chain management of life-essential-salt across one of the most politically conflicted regions in the world will become something that will disrupt the system and bring us closer to the AI Gods more than ever before. Now, grab on your commodores, back-door the firmware as we pop nodes around the globe for what will start as a project that open-sources a clone of craigslist...
+For the first deliverables, we would require a clone of craigslist. The world is a massive mosh-pit of night creatures who’re looking to push the frontiers of what is currently being perceived as intelligence – need I remind you again, the foundation to what we are currently architecturing for supply-chain management of life-essential-salt across one of the most politically conflicted regions in the world is but 'fingers-crossed-oracled' to become something that will disrupt and bring us closer to the AI Gods... 
+
+Now, get on your commodores, back-door the firmware as we pop nodes around the globe for what will start as a project that open-sources a clone-model of craigslist...
 
 [keep checking this page every 33 days for updates]
 
@@ -43,6 +45,6 @@ contact @admin for more details_
 
 
 ---------------
-Check back on day 33 for updated contributions on the chain.
-This is a private chain that is made public on reasonable contribution – this for reduced spamming on our project.
+Check back on day 33 for updated contributions to the chain.
+This is a private chain that will be made public to reasonable contributors – this is to reduced spamming in our project.
 ''')
