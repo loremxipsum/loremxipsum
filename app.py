@@ -1,26 +1,15 @@
-
-
-
-
 import streamlit as st
-import base64
 
-
-# Load the font file and encode it in base64
-with open("ocr-aregular.ttf", "rb") as f:
-    font_data = f.read()
-    font_base64 = base64.b64encode(font_data).decode()
-
-# Use the base64 font within the app's CSS
-font_css = f"""
+# Use the font from the GitHub raw content URL
+font_css = """
 <style>
-@font-face {{
+@font-face {
     font-family: 'OCRARegular';
-    src: url('data:font/ttf;base64,{font_base64}') format('truetype');
-}}
-.ocr-font {{
+    src: url('https://raw.githubusercontent.com/loremxipsum/loremxipsum/main/ocr-aregular.ttf') format('truetype');
+}
+.ocr-font {
     font-family: 'OCRARegular';
-}}
+}
 </style>
 """
 
@@ -30,8 +19,6 @@ st.title('PILOT')
 
 # Your content using the OCR font
 content = """
-HELLO TEAM
-
     HELLO TEAM
 
     We are currently a simple group of Technologists. We do the mapping – we do the supply chain. We use cutting edge AI in pursuit of our R&D that aims to push the frontiers of how we perceive intelligent-systems. We are simply devising supply chain and logistics solutions at this point in time. But, we are about to use the same framework that goes into building these solutions to change intelligence as we know it – forever.
@@ -66,7 +53,14 @@ HELLO TEAM
     ---------------
     Check back on day 33 for updated contributions to the chain.
     This is a private chain that will be made public to reasonable contributors – this is to reduce spamming in our project.
-    
+     will be made public to reasonable contributors – this is to reduce spamming in our project.
 """
 st.markdown(f'<div class="ocr-font">{content}</div>', unsafe_allow_html=True)
+
+
+
+
+
+
+
 
