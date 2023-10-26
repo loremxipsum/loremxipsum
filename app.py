@@ -1,5 +1,7 @@
 import streamlit as st
 
+
+
 # Use the font from the GitHub raw content URL
 font_css = """
 <style>
@@ -9,13 +11,24 @@ font_css = """
 }
 .ocr-font {
     font-family: 'OCRARegular';
+    word-wrap: break-word;  /* ensures long strings/words break onto the next line */
 }
 </style>
 """
 
 st.markdown(font_css, unsafe_allow_html=True)
 
+# Set Streamlit container to wide mode for more space
+st.set_page_config(layout="wide")
+
+
 st.title('PILOT')
+
+
+
+
+image_path = "chimp.png" 
+st.image(image_path, caption="I FIND YOUR LACK OF FAITH DISTURBING", use_column_width=True)
 
 # Your content using the OCR font
 content = """
