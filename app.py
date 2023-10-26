@@ -59,4 +59,4 @@ st.write('''
 
 
 image_path = "chimp.png" 
-st.image(image_path, caption="I FIND YOUR LACK OF FAITH DISTURBING.", use_column_width=300)
+st.image(image_path, caption="I FIND YOUR LACK OF FAITH DISTURBING.", use_column_width=True)
