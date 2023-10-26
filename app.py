@@ -5,13 +5,6 @@
 import streamlit as st
 import base64
 
-st.cache(clear_cache=True)
-
-
-
-
-
-
 
 # Load the font file and encode it in base64
 with open("ocr-aregular.ttf", "rb") as f:
