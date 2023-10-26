@@ -1,17 +1,17 @@
 import streamlit as st
 
-# Inject custom CSS to include and set "Consolas" as the font from your TTF file
+# CSS to embed and use Roboto Mono font from Google Fonts
 font_css = """
 <style>
-    @font-face {
-        font-family: 'ConsolasCustom';
-        src: url('Consolas-2.ttf') format('truetype');
-    }
-    body {
-        font-family: 'ConsolasCustom', monospace !important;
-    }
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+body, h1, h2, h3, h4, h5, h6, p, li, a {
+    font-family: 'Roboto Mono', monospace !important;
+}
 </style>
 """
+
+# Inject the font into the Streamlit app
 st.markdown(font_css, unsafe_allow_html=True)
 
 
@@ -21,7 +21,7 @@ image_path = "chimp.png"
 st.image(image_path, caption="I FIND YOUR LACK OF FAITH DISTURBING.", use_column_width=True)
 
 
-content = """
+st.write('''
     HELLO WORLD
 
     We are currently a team of Technologists. We do the mapping – we do the supply chain. We use cutting edge AI in pursuit of our R&D that aims to push the frontiers of how we perceive intelligent-systems. We are simply devising supply chain and logistics solutions at this point in time. But, we are about to use the same framework that goes into building these solutions to change intelligence as we know it – forever.
@@ -57,6 +57,5 @@ content = """
     Check back on day 33 for updated contributions to the chain.
     This is a private chain that will be made public to reasonable contributors – this is to reduce spamming in our project.
      
-"""
+''')
 
-st.write(content)
