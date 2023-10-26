@@ -1,8 +1,9 @@
 import streamlit as st
 
+# Set Streamlit container to wide mode for more space
+st.set_page_config(layout="wide")
 
-
-# Use the font from the GitHub raw content URL
+# Use the font from the local path
 font_css = """
 <style>
 @font-face {
@@ -17,16 +18,9 @@ font_css = """
 """
 
 st.markdown(font_css, unsafe_allow_html=True)
-
-# Set Streamlit container to wide mode for more space
-st.set_page_config(layout="wide")
-
-
 st.title('PILOT')
 
-
-
-
+# Display image
 image_path = "chimp.png" 
 st.image(image_path, caption="I FIND YOUR LACK OF FAITH DISTURBING", use_column_width=True)
 
