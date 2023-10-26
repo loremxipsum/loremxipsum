@@ -43,5 +43,5 @@ st.write('''
     ---------------
     Check back on day 33 for updated contributions to the chain.
     This is a private chain that will be made public to reasonable contributors – this is to reduce spamming in our project.
-     will be made public to reasonable contributors – this is to reduce spamming in our project.
+     
 ''')
