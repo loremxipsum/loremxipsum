@@ -4,21 +4,6 @@ def main():
     st.title("HELLO WORLD")
 
 
-       
-    # Inject custom CSS to use the OCR font
-    st.markdown("""
-        <style>
-            @font-face {
-                font-family: 'OCRFont';
-                src: url('ocr-aregular.ttf') format('truetype');
-            }
-            body {
-                font-family: 'OCRFont', sans-serif;
-            }
-        </style>
-    """, unsafe_allow_html=True)
-    
-    
     content = """
     We are currently a team of Technologists. We do the mapping – we do the supply chain. We use cutting edge AI in pursuit of our R&D that aims to push the frontiers of how we perceive intelligent-systems. We are simply devising supply chain and logistics solutions at this point in time. But, we are about to use the same framework that goes into building these solutions to change intelligence as we know it – forever.
 
