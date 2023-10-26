@@ -1,10 +1,10 @@
 import streamlit as st
 
-def main():
-    st.title("HELLO WORLD")
+st.title('PILOT')
 
+st.write('''
+    HELLO WORLD
 
-    content = """
     We are currently a team of Technologists. We do the mapping – we do the supply chain. We use cutting edge AI in pursuit of our R&D that aims to push the frontiers of how we perceive intelligent-systems. We are simply devising supply chain and logistics solutions at this point in time. But, we are about to use the same framework that goes into building these solutions to change intelligence as we know it – forever.
 
     We will soon build supply chain and logistics systems robotized, governed, and robustized to the point where we will be capable of transporting anything from hash-tokenized-military-assets to sugar. But for now, we do salt.
@@ -38,9 +38,4 @@ def main():
     Check back on day 33 for updated contributions to the chain.
     This is a private chain that will be made public to reasonable contributors – this is to reduce spamming in our project.
      will be made public to reasonable contributors – this is to reduce spamming in our project.
-    """
-    
-    st.write(content)
-    
-if __name__ == "__main__":
-    main()
+''')
