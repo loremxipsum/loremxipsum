@@ -2,6 +2,15 @@ import streamlit as st
 
 st.title('PILOT')
 
+
+
+
+# Display image----
+image_path = "chimp.png" 
+st.image(image_path, caption="Your Image Caption", use_column_width=True)
+
+
+
 st.write('''
 HELLO TEAM
 
