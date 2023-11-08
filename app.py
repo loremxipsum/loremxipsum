@@ -57,7 +57,7 @@ st.write('''
 
     Buy our team one of those donuts with glaze like snow: **donate multiples of [$2.50] in BTC/ETH && treat us at Dunkin'**
     
-    address: (contact @admin to exchange your funds - we sell you bitcoin. we sell you Ethereum. We sell you Doge. We sell youi anything that believes in mining at the speed of internet.
+    address: (contact @admin to exchange your funds - contact admin to exchange your Zelle for bitcoin/Ethereum/Doge. 
     
 
     Contact admin. See you on day 33.
