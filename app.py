@@ -20,15 +20,18 @@ st.title('PILOT')
 st.write('''
     HELLO WORLD
 
-    We are a team of Technologists and specialists in international trade. We do the mapping – we do the supply chain. We use cutting edge AI in pursuit of our R&D that aims to push the frontiers of how we perceive intelligent-systems. We devise supply chain and logistics solutions for the time being. But, we are about to use the same framework that goes into building these solutions to change intelligence as we know it – forever.
+    We are a team of technologists and specialists in international trade. We do the mapping – we do the supply chain. We use cutting edge AI in pursuit of our R&D that aims to push the frontiers of how we perceive intelligent-systems. In what will be an open source dev. sandbox, we will attempt to build life-saver logistics solutions for mystery-box digital-assets that get donated to charities listed here: [link will be updated - check back]. You will be aiding the transport of essential life-support supplies in a region of conflict that will be disclosed by admin in further stages.
 
-    We will soon build supply chain and logistics systems robotized, governed, and robustized to the point where we will be capable of transporting anything from hash-tokenized-military-assets to sugar. But for now, we do salt.
+
+    #####
+
+    We stand to build supply chain and logistics systems robotized, governed, and robustized to the point where we will be capable of, for lack of superlatives, 'very' fastidiously transport anything from hash-tokenized-military-assets to sugar. But for now, we do salt.
 
     We start with the operational expenses we have access to from a group of small tier logistics companies. We start working with a fleet of 500 trucks that comply with standards of transport authorities (this allows us to architecture governance easily around vendors and other parties involved).
 
-    Our vectorized smart-contract calculates your contributions and logs them into the blockchain automating immediate transfer of funds on your centralized-by-design, decentralized-in-nature metamask wallet on a 4-chain confirmation. 
+    **Our vectorized smart-contract calculates your contributions and logs them into the blockchain automating immediate transfer of funds on your centralized-by-design, decentralized-in-nature metamask wallet on a 4-chain confirmation.** 
     
-    Contact me at: admin@XXXX for issues with your transfers. We are currently in the process of building a UI that allows you to view tokens you have earned. Until then, check contribution chart and contact admin.
+    Contact me at: admin@XXXX for issues with your transfers. We are currently in the process of building a UI that allows you to view the tokens you have earned. Until then, check contribution chart and contact admin. This project will soon go dark. 
 
 ''')
 
